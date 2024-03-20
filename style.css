@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+body{
+    background-image: url("https://cricketaddictor.com/wp-content/uploads/2022/04/7-6.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Italic";
+}
+
+
+.container{
+    background-color: rgba(0 , 0, 0 , 0.4);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container>.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
+
+.name{
+    color: chartreuse;
+    font-size: x-large;
+    font-style: bold;
+}
+
+
+.score{
+    color: white;
+    font-size: x-large;
+    margin: 20px;
+    align-self: center;
+}
+
+
+.goals{
+    color: rgb(236, 185, 58);
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+
+#strike{
+    background-color: blue;
+    font-size: larger;
+    width:300px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+}
+
+
+#try{
+    background-color: blue;
+    font-size: larger;
+    width:300px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+}
+
+
+#circle{
+    display: inline-block;
+}
+
+
+#result{
+    background-image: radial-gradient(rgb(79, 5, 252),yellow ,orange);
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+
+#team1scores{
+    margin-top: 20px;
+}
